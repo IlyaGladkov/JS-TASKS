@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.myBtn {
+    border: none;
+    background-color: purple;
+    border-radius: 8px;
+    padding: 100px;
+    font-size: large;
+    color: aliceblue;
+}

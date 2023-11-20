@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: purple;
+    color: aliceblue;
+}
+
+tr,td,th {
+    border: 1px solid black;
+}
+
+#pagination {
+    margin: 20px auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pagination li {
+    cursor: pointer;
+    list-style: none;
+    padding: 5px 15px;
+    background-color: purple;
+    color: aliceblue;
+    border-radius: 30px;
+}
